@@ -46,6 +46,7 @@
               <heading>News</heading>
               <p>
                 <ul>
+		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">06/2022: Paper on talking head generation was accepted to <a href="https://sightsound.org/", target="_blank">Sight and Sound, CVPR Workshop 2023</a></li>
                   <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">06/2022: Paper on <a href="https://arxiv.org/abs/2201.05277", target="_blank">scene boundary segmentation</a> was accepted to <a href="https://accv2022.org/en/", target="_blank">ACCV 2022</a></li>
                   <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">01/2022: Started working with KakaoBrain as research intern</li>
                   <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">03/2021: Started MS in Data Science at <a href="https://gsds.snu.ac.kr/", target="_blank">Seoul National University Graduate School of Data Science</a></li>
@@ -63,6 +64,40 @@
           </tr>
         </tbody></table>
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         <tr onmouseout="dadnerf_stop()" onmouseover="dadnerf_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='dadnerf_image'>
+                  <img src='images/dadnerf_img_1.png' width="160">
+                </div>
+                <img src='images/dadnerf_img_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function bassl_start() {
+                  document.getElementById('dadnerf_image').style.opacity = "0";
+                }
+
+                function bassl_stop() {
+                  document.getElementById('dadnerf_image').style.opacity = "1";
+                }
+                bassl_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2201.05277">
+                <papertitle>Disentangled Audio-Driven NeRF: Talking Head Generation with Detailed Identity-Specific Micro expressions</papertitle>
+              </a>
+              <br>
+              Seoyoung Lee*, <strong>Seongsu Ha</strong>*, Joonseok Lee
+              <br>
+              <em>CVPRW</em>, 2023
+              <br>
+              paper
+            </td>
+          </tr>
+        </tbody></table>
+	
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
          <tr onmouseout="bassl_stop()" onmouseover="bassl_start()">
             <td width="25%">
