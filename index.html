@@ -100,6 +100,40 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         <tr onmouseout="pegasus_stop()" onmouseover="pegasus_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='pegasus_image'>
+                  <img src='images/pegasus_img_1.png' width="160">
+                </div>
+                <img src='images/pegasus_img_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function pegasus_start() {
+                  document.getElementById('pegasus_image').style.opacity = "0";
+                }
+
+                function pegasus_stop() {
+                  document.getElementById('pegasus_image').style.opacity = "1";
+                }
+                pegasus_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              
+              <papertitle>Pegasus-1 Technical Report</papertitle>
+              
+              <br>
+              Twelve Labs
+              <br>
+              <em>arXiv</em>, 24.04
+              <br>
+              <a href="https://arxiv.org/pdf/2404.14687">paper</a>
+            </td>
+          </tr>
+        </tbody></table>
+	
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
          <tr onmouseout="mlsv_stop()" onmouseover="mlsv_start()">
             <td width="25%">
               <div class="one">
