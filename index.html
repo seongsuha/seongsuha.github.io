@@ -44,6 +44,7 @@
               <p>
                 <ul>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">07/2024: Paper on referring image segmentation accepted to <a href="https://eccv.ecva.net/", target="_blank">ECCV 2024</a></li>
+		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">07/2024: Paper on video frame sampling accepted to <a href="https://bmvc2024.org/", target="_blank">BMVC 2024</a></li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">01/2024: Paper on video moment localization accepted to <a href="https://aistats.org/aistats2024/dates.html", target="_blank">AISTATS 2024</a></li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">09/2023: Started working at Twelve Labs as research scientist</li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">06/2023: Started working at Twelve Labs as research intern</li>
@@ -166,7 +167,41 @@
             </td>
           </tr>
         </tbody></table>
-	
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         <tr onmouseout="sos_stop()" onmouseover="sos_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='sos_image'>
+                  <img src='images/sosampler_img_1.png' width="160">
+                </div>
+                <img src='images/sosampler_img_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sos_start() {
+                  document.getElementById('sos_image').style.opacity = "0";
+                }
+
+                function sos_stop() {
+                  document.getElementById('sos_image').style.opacity = "1";
+                }
+                sos_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              
+              <papertitle>Scalable Frame Sampling for Video Classification: A Semi-Optimal Policy Approach with Reduced Search Space</papertitle>
+              
+              <br>
+              Junho Lee*, Jeongwoo Shin, Seung Woo Ko, <strong>Seongsu Ha</strong>, Joonseok Lee 
+              <br>
+              <em>BMVC</em>, 2024
+              <br>
+              paper
+            </td>
+          </tr>
+        </tbody></table>
+	      
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
          <tr onmouseout="mlsv_stop()" onmouseover="mlsv_start()">
             <td width="25%">
