@@ -20,12 +20,15 @@
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center"><name>Seongsu Ha</name></p>
               <p>
-              	A deep learning researcher interested in computer vision and machine learning.
-	      	Specifically my research interest lies in improving the quality of multi-modal representations and their interactions for various downstream applications to widen the capability boundaries,
-		      such as video understanding, video corpus moment retrieval, video scene boundary segmentation and visual grounding.
-		Currently, I am a PhD student at the University of North Carolina at Chapel Hill, advised by Prof. <a href="https://www.gedasbertasius.com/">Gedas Bertasius</a>.
-		Previously, I received Master's degree in Data Science at <a href="https://en.snu.ac.kr/">Seoul National University</a> <a href="http://viplab.snu.ac.kr/">Visual Information Processing Lab</a>,
-              	advised by <a href="http://www.joonseok.net/home.html">Prof. Joonseok Lee</a>. I also received Bachelor's degree in Computer Science, Engineering at University of Illinois at Urbana-Champaign.
+
+I am a deep learning researcher interested in computer vision and machine learning, with a current focus on agentic video understanding and video deep research. 
+My research aims to build multimodal systems that can search, retrieve, and reason over large-scale video corpora,
+while drawing on broader interests in multimodal representation learning, video understanding, video corpus moment retrieval, video scene boundary segmentation, and visual grounding.
+
+Currently, I am a PhD student at the University of North Carolina at Chapel Hill, advised by Prof. <a href="https://www.gedasbertasius.com/">Gedas Bertasius</a>.
+Previously, I received Master's degree in Data Science at <a href="https://en.snu.ac.kr/">Seoul National University</a> <a href="http://viplab.snu.ac.kr/">Visual Information Processing Lab</a>,
+I also received a Bachelor's degree in Computer Science from the University of Illinois at Urbana-Champaign.
+
               </p>
               <p style="text-align:center">
                 <a href="mailto:seongsu0311@gmail.com">seongsu0311@gmail.com</a> &nbsp/&nbsp
@@ -44,7 +47,9 @@
               <heading>News</heading>
               <p>
                 <ul>
-		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">09/2025: Paper on video large language models released. <a href="https://arxiv.org/pdf/2509.08016", target="_blank">arXiv 2025</a></li>
+		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">09/2025: Paper on benchmarking strateigic video intelligence released. <a href="https://arxiv.org/abs/2605.31529", target="_blank">arXiv 2026</a></li>
+		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">09/2025: Paper on video large language models accepted at <a href="https://cvpr.thecvf.com/", target="_blank">CVPR Findings 2026</a></li>
+		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">07/2024: Paper on referring image segmentation accepted at <a href="https://eccv.ecva.net/", target="_blank">ECCV 2024</a></li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">08/2025: Starting PhD in Computer Science at <a href="https://www.unc.edu/", target="_blank">the University of North Carolina at Chapel Hill</a></li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">01/2025: Started working at EverEx as AI research engineer</li>
 		  <li style="list-style-position:inside;margin:0;padding:0;text-align:left;">12/2024: Marengo-2.7, a new SOTA video foundation model of multivector representation, released! <a href="https://www.twelvelabs.io/blog/introducing-marengo-2-7", target="_blank">Tech Blog</a></li>
@@ -75,6 +80,40 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         <tr onmouseout="svi_stop()" onmouseover="svi_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='svi_image'>
+                  <img src='images/svi-bench_1.PNG' width="160">
+                </div>
+                <img src='images/svi-bench_2.PNG' width="160">
+              </div>
+              <script type="text/javascript">
+                function svi_start() {
+                  document.getElementById('svi_image').style.opacity = "0";
+                }
+
+                function svi_stop() {
+                  document.getElementById('svi_image').style.opacity = "1";
+                }
+                svi_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              
+              <papertitle>SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence</papertitle>
+              
+              <br>
+              Yulu Pan*, Han Yi*, <strong>Seongsu Ha*</strong>, Md Mohaiminul Islam*, Benjamin Zhang, Lorenzo Torresani, Gedas Bertasius
+              <br>
+              <em>ArXiV</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2605.31529">paper</a>
+            </td>
+          </tr>
+        </tbody></table>
+		  
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
          <tr onmouseout="vps_stop()" onmouseover="vps_start()">
             <td width="25%">
               <div class="one">
@@ -101,7 +140,7 @@
               <br>
               Hyungjin Chung*, Hyelin Nam, Jiyeon Kim, Hyojun Go, Byeongjun Park, Junho Kim, Joonseok Lee, <strong>Seongsu Ha</strong>, Byunghoon Kim
               <br>
-              <em>arXiv</em>, 2025
+              <em>CVPR Findings</em>, 2026
               <br>
               <a href="https://arxiv.org/pdf/2509.08016">paper</a>
             </td>
